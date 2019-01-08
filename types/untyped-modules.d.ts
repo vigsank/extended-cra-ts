@@ -1,0 +1,7 @@
+declare module "react-jss";
+
+// yet to be implemented
+declare module "*.png";
+declare module "*.svg";
+declare module "*.jpg";
+declare module "*.json";
