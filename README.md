@@ -1,3 +1,5 @@
+<h1>Extended Create-React-App-TypeScript</h1>
+
 This project was bootstrapped with [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter).
 
 This project is an extended _TypeScript React Starter_ having many other useful and widely used modules for a React Application development using Typescript.
