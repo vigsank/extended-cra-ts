@@ -10,10 +10,6 @@ Apart from those basic modules given by TsRS, currently this starter template in
 - [classnames](https://github.com/JedWatson/classnames)
 - [React-Redux](https://github.com/reduxjs/react-redux)
 
-_Up Next :_
-
-- [url-loader](https://www.npmjs.com/package/url-loader)
-
 <hr />
 
 I am planning to use this template to bootstrap my other React Projects. During my development phase, when I come across other useful plugins/modules that would be widely used across in a react development, I will add those too here and improve this boilerplate project.
