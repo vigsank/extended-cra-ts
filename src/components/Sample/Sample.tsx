@@ -2,11 +2,9 @@ import classNames from "classnames";
 import * as React from "react";
 import injectSheet from "react-jss";
 import { connect } from "react-redux";
-import {
-  ICommonInterface,
-  IObjectWithVariableKeyAndValue
-} from "../../interfaces/CommonInterface";
-import youtTubeMasterHeaderStyles from "./Sample.jss";
+import { ICommonInterface } from "../../interfaces/CommonInterface";
+import sampleJss from "./Sample.jss";
+import react_logo from "../../resources/react.svg";
 
 export interface ISampleBaseProps extends React.HTMLAttributes<HTMLElement> {}
 
@@ -33,6 +31,8 @@ class SampleComponent extends React.Component<ISampleFinalProps, {}> {
             Increment Count
           </button>
         </div>
+        <br />
+        <img src={react_logo} />
       </>
     );
   }
@@ -56,4 +56,4 @@ const mapDispatchToProps = (dispatch: any) => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(injectSheet(youtTubeMasterHeaderStyles)(SampleComponent));
+)(injectSheet(sampleJss)(SampleComponent));
