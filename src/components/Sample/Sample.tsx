@@ -2,7 +2,10 @@ import classNames from "classnames";
 import * as React from "react";
 import injectSheet from "react-jss";
 import { connect } from "react-redux";
-import { ICommonInterface } from "../../interfaces/CommonInterface";
+import {
+  ICommonInterface,
+  IObjectWithVariableKeyAndValue
+} from "../../interfaces/CommonInterface";
 import youtTubeMasterHeaderStyles from "./Sample.jss";
 
 export interface ISampleBaseProps extends React.HTMLAttributes<HTMLElement> {}
@@ -35,13 +38,13 @@ class SampleComponent extends React.Component<ISampleFinalProps, {}> {
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state: any) => {
   return {
     count: state.count
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch: any) => {
   return {
     onIncrementCounter: () =>
       dispatch({
