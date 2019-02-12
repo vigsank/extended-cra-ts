@@ -1,5 +1,5 @@
 const youtTubeMasterHeaderStyles = (theme: any) => ({
-  masterHeader: {
+  textAlignCenter: {
     textAlign: "center"
   }
 });
