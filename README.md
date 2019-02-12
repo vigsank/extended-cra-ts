@@ -8,11 +8,11 @@ Apart from those basic modules given by TsRS, currently this starter template in
 
 - [React-Jss](https://github.com/cssinjs/react-jss)
 - [classnames](https://github.com/JedWatson/classnames)
+- [React-Redux](https://github.com/reduxjs/react-redux)
 
 _Up Next :_
 
 - [url-loader](https://www.npmjs.com/package/url-loader)
-- [React-Redux](https://github.com/reduxjs/react-redux)
 
 <hr />
 
