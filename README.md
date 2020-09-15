@@ -1,3 +1,4 @@
+![CodeQL](https://github.com/vigsank/extended-cra-ts/workflows/CodeQL/badge.svg)
 <h1>Extended Create-React-App-TypeScript</h1>
 
 This project was initially bootstrapped with [TypeScript React Starter](https://github.com/Microsoft/TypeScript-React-Starter). Later, since _create-react-app_ natively supported TypeScript, migrated to native module by following these [steps](https://vincenttunru.com/migrate-create-react-app-typescript-to-create-react-app/).
